@@ -16,6 +16,7 @@ M16A2-M4A1, Mag and Attachments
 M79
 MP5K, Mag and Attachments
 SVD and Mag
+Saiga, Mag and Attachments
 UMP and Mag
 VSS and Mag
 SKS
@@ -1174,10 +1175,10 @@ AK101-->
     </type>
 <!--UMP and Mag-->
     <type name="UMP45">
-        <nominal>13</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

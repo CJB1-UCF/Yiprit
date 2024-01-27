@@ -62,19 +62,20 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="Vehicle_Parts_Tools.xml" type="types" />
 		<file name="Zeds.xml" type="types" />	
 	</ce>
+
+<!--Suggested Mods-->
 <!-- <ce folder="Mods">
-	    <file name="Drones.xml" type="types" />
-		<file name="DMNS.xml" type="types" />	
-		<file name="Remastered_Helis.xml" type="types" />	
+	    <file name="Arma2HelicoptersRemastered.xml" type="types" />
+		<file name="BaseBuildingPlus.xml" type="types" />	
+		<file name="BBPItemPack.xml" type="types" />
+		<file name="CheytacM200FromArmA2Port.xml" type="types" />
+		<file name="CJ187MoreMoney.xml" type="types" />
+		<file name="DingoTruck.xml" type="types" />
+		<file name="Drones.xml" type="types" />
+		<file name="FlipTransport.xml" type="types" />
 		<file name="MMG.xml" type="types" />
-		<file name="Cheytac.xml" type="types" />
-		<file name="Much_Stuff.xml" type="types" />
-		<file name="Teddys.xml" type="types" />
-		<file name="Money.xml" type="types" />
-		<file name="Misc.xml" type="types" />
-		<file name="Seasonal.xml" type="types" />	
-		<file name="BBP.xml" type="types" />
-		<file name="DingoTypes.xml" type="types" />	
-		<file name="Jeep_Types.xml" type="types" />		
+		<file name="MuchStuffPack.xml" type="types" />	
+		<file name="SkyJeep.xml" type="types" />
+        <file name="TeddysWeaponPack.xml" type="types" />		
 	</ce>-->
 </economycore>

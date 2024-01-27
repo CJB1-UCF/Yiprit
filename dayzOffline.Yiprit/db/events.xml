@@ -35,8 +35,6 @@ Vehicles
 Seasonal
   ChristmasTree 
   SantaCrash
-  Snowmobile
-  Jeep
 Animals-->
     <event name="AmbientHen">
         <nominal>3</nominal>
@@ -720,8 +718,7 @@ Animals-->
             <child lootmax="8" lootmin="4" max="1" min="1" type="Bonfire"/>
         </children>
     </event>
-<!--Survivor Camps-->
-	<event name="StaticFireplace">
+	<event name="StaticFireplace"><!--Survivor Camps-->
         <nominal>6</nominal>
         <min>4</min>
         <max>7</max>
@@ -1123,7 +1120,7 @@ Animals-->
             <child lootmax="0" lootmin="0" max="1" min="1" type="Truck_01_Covered"/>
 			<child lootmax="0" lootmin="0" max="1" min="1" type="Truck_01_Covered_Blue"/>
         </children>
-    </event>
+    </event>	
 <!--Seasonal-->
     <event name="StaticChristmasTree_Green">
         <nominal>13</nominal>
@@ -1160,54 +1157,5 @@ Animals-->
             <child lootmax="10" lootmin="8" max="1" min="1" type="Wreck_SantasSleigh"/>
         </children>
     </event>
-<!--Snowmobiles/Summer Vehicle-->
-<event name="VehicleSavageSherpa">
-        <nominal>8</nominal>
-        <min>6</min>
-        <max>10</max>
-        <lifetime>2592000</lifetime>
-        <restock>0</restock>
-        <saferadius>20</saferadius>
-        <distanceradius>30</distanceradius>
-        <cleanupradius>100</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>0</active>
-        <children>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="SavageSherpa_red"/>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="SavageSherpa_green"/>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="SavageSherpa_blue"/>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="SavageSherpa_savage"/>			
-			<child lootmax="0" lootmin="0" max="1" min="1" type="SavageSherpa_sport_red"/>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="SavageSherpa_sport_green"/>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="SavageSherpa_sport_blue"/>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="SavageSherpa_sport_savage"/>
-        </children>
-    </event>
-<!--Jeeps-->
-<event name="VehicleSky_Jeep">
-        <nominal>8</nominal>
-        <min>6</min>
-        <max>10</max>
-        <lifetime>2592000</lifetime>
-        <restock>0</restock>
-        <saferadius>20</saferadius>
-        <distanceradius>30</distanceradius>
-        <cleanupradius>100</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="Sky_Jeep"/>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="Sky_Jeep_Blue"/>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="Sky_Jeep_Green"/>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="Sky_Jeep_Red"/>			
-			<child lootmax="0" lootmin="0" max="1" min="1" type="Sky_Jeep_White"/>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="Sky_Jeep_Yellow"/>
-			<child lootmax="0" lootmin="0" max="1" min="1" type="Sky_Jeep_Black"/>
-        </children>
-    </event>	
-	
+
 </events>

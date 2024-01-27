@@ -1,4 +1,3 @@
-
 void main()
 {
 	//INIT ECONOMY--------------------------------------
@@ -29,8 +28,6 @@ void main()
 			}
 		}
 	}
-
-	
 }
 
 class CustomMission: MissionServer
@@ -86,25 +83,25 @@ class CustomMission: MissionServer
 		itemClothing = player.FindAttachmentBySlotName( "Legs" );
 		if ( itemClothing )
 		{
-			//SetRandomHealth( itemEnt );
-			//SetRandomHealth( itemClothing );
+			SetRandomHealth( itemEnt );
+			SetRandomHealth( itemClothing );
 			
-			//itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
-			//if ( Class.CastTo( itemBs, itemEnt ) )
-			//	itemBs.SetQuantity( 2 );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
+			if ( Class.CastTo( itemBs, itemEnt ) )
+				itemBs.SetQuantity( 2 );
 
-			//string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
-			//int rndIndex = Math.RandomInt( 0, 4 );
-			//itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
-			//SetRandomHealth( itemEnt );
+			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
+			int rndIndex = Math.RandomInt( 0, 4 );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
+			SetRandomHealth( itemEnt );
 
-			//rand = Math.RandomFloatInclusive( 0.0, 1.0 );
-			//if ( rand < 0.35 )
-			//	itemEnt = player.GetInventory().CreateInInventory( "Apple" );
-			//else if ( rand > 0.65 )
-			//	itemEnt = player.GetInventory().CreateInInventory( "Pear" );
-			//else
-			//	itemEnt = player.GetInventory().CreateInInventory( "Plum" );
+			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
+			if ( rand < 0.35 )
+				itemEnt = player.GetInventory().CreateInInventory( "Apple" );
+			else if ( rand > 0.65 )
+				itemEnt = player.GetInventory().CreateInInventory( "Pear" );
+			else
+				itemEnt = player.GetInventory().CreateInInventory( "Plum" );
 
 			SetRandomHealth( itemEnt );
 			
@@ -115,7 +112,6 @@ class CustomMission: MissionServer
 			}
 			
 	}
-	
 };
 
 Mission CreateCustomMission(string path)

@@ -32,11 +32,15 @@
         <usage name="Lunapark"/>
         <usage name="SeasonalEvent"/>
 		<usage name="ContaminatedArea"/>
+        <usage name="Historical"/>
+		<usage name="Underground"/>
+		<usage name="Medical"/>
     </usageflags>
     <valueflags>
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
+        <value name="Unique"/>
     </valueflags>
 </lists>

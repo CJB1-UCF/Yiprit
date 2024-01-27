@@ -17,22 +17,28 @@ Example messages:
 
 <!--
 2) following message will be displayed every 45 minutes to every player
+    and 10 minutes after player connect
 -->
     <message>
+        <delay>10</delay>
         <repeat>45</repeat>
-        <text>You're playing on Yiprit. Thank you</text>
+        <onconnect>1</onconnect>
+        <text>You're playing on Yiprit. Thank you</text><!--You can use your server name here-->
     </message>
 
 <!--
-3) following message will be displayed every 50/55 minutes to every player
-    and 10/5 minutes after player connect
+3) following message will be displayed every 50 minutes to every player
+    and 10 minutes after player connect
 -->
     <message>
         <delay>10</delay>
         <repeat>50</repeat>
         <onconnect>1</onconnect>
-        <text>Check our Discord</text>
+        <text>Check our Discord</text><!--You can use your Discord or website address here-->
     </message>
+<!--
+4) following message will be displayed every 30 minutes
+    and 5 minutes after player connect Used with Expansion
 	
     <message>
         <delay>5</delay>
@@ -40,16 +46,19 @@ Example messages:
         <onconnect>1</onconnect>
         <text>Press B for important server info</text>
     </message>
-	
+-->
+<!--
+5) following message will be displayed every 40 minutes
+    and 5 minutes after player connect
+-->	
     <message>
         <delay>5</delay>
         <repeat>40</repeat>
         <onconnect>1</onconnect>
-        <text>This is a PVE/PVP Server</text>
+        <text>This is a PVE/PVP Server</text><!--Whatever you want here-->
     </message>
-
 <!--
-4) following message will be displayed once
+6) following message will be displayed once
     and 2 minutes after player connect
 -->
     <message>
